@@ -7,5 +7,5 @@ import 'package:flutter/material.dart';
 Map<String, WidgetBuilder> routes = {
   AppRoutes.loginView: (context) => const LoginView(),
   AppRoutes.registerView: (context) => const RegisterView(),
-  AppRoutes.chatView: (context) => ChatView(),
+  AppRoutes.chatView: (context) => const ChatView(),
 };
